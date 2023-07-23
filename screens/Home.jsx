@@ -1,13 +1,13 @@
 import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-function Profile() {
+function Home() {
     return (
         <View>
             <Text>
-                <div>Profile</div>
+                <div>Home</div>
             </Text>
         </View>
     );
 }
-export default Profile;
+export default Home;
 const styles = StyleSheet.create({});
