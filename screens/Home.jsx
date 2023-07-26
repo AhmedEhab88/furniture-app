@@ -1,13 +1,12 @@
+import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-function Home() {
+
+export default function Home() {
     return (
         <View>
-            <Text>
-                <div>Home</div>
-            </Text>
+            <Text>Home</Text>
         </View>
     );
 }
-export default Home;
+
 const styles = StyleSheet.create({});
