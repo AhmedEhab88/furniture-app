@@ -32,7 +32,7 @@ function BottomTabNavigation() {
                         return (
                             <Ionicons
                                 name={focused ? 'home' : 'home-outline'}
-                                size={24}
+                                size={25}
                                 color={focused ? COLORS.primary : COLORS.gray2}
                             />
                         );

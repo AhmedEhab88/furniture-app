@@ -3,9 +3,7 @@ import { StyleSheet, View, Text } from 'react-native';
 function Profile() {
     return (
         <View>
-            <Text>
-                <div>Profile</div>
-            </Text>
+            <Text>Profile</Text>
         </View>
     );
 }
