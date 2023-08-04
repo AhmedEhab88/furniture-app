@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons, Feather } from '@expo/vector-icons';
 import { TextInput } from 'react-native-gesture-handler';
 import { COLORS, SIZES } from '../constants/index';
-import styles from './search.style';
+import styles from './styles/search.style';
 
 function Search() {
     return (

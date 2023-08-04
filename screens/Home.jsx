@@ -2,7 +2,7 @@ import { TouchableOpacity, Text, View, ScrollView } from 'react-native';
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons, Fontisto } from '@expo/vector-icons';
-import styles from './home.style';
+import styles from './styles/home.style';
 import { Welcome } from '../components/index';
 
 export default function Home() {
