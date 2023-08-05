@@ -5,6 +5,7 @@ import { Ionicons, Fontisto } from '@expo/vector-icons';
 import styles from './styles/home.style';
 import { Welcome } from '../components/index';
 import Carousel from '../components/home/Carousel';
+import Heading from '../components/home/Heading';
 
 export default function Home() {
     return (
@@ -27,6 +28,7 @@ export default function Home() {
             <ScrollView>
                 <Welcome />
                 <Carousel />
+                <Heading />
             </ScrollView>
         </SafeAreaView>
     );
