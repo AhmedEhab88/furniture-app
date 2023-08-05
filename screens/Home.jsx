@@ -6,6 +6,7 @@ import styles from './styles/home.style';
 import { Welcome } from '../components/index';
 import Carousel from '../components/home/Carousel';
 import Heading from '../components/home/Heading';
+import ProductRow from '../components/products/ProductRow';
 
 export default function Home() {
     return (
@@ -29,6 +30,7 @@ export default function Home() {
                 <Welcome />
                 <Carousel />
                 <Heading />
+                <ProductRow />
             </ScrollView>
         </SafeAreaView>
     );
