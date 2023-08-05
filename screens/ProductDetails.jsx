@@ -1,11 +1,26 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-const ProductDetails = () => {
+import { View, Text, TouchableOpacity } from 'react-native';
+import styles from './styles/productDetails.style';
+import { Ionicons } from '@expo/vector-icons';
+import { COLORS } from '../constants';
+
+const ProductDetails = ({ navigation }) => {
     return (
-        <View>
-            <Text>ProductDetails</Text>
+        <View style={styles.container}>
+            <View style={styles.upperRow}>
+                <TouchableOpacity
+                    onPress={() => {
+                        navigation.goBack();
+                    }}
+                >
+                    <Ionicons name="chevron-back-circle" size={30} />
+                </TouchableOpacity>
+
+                <TouchableOpacity onPress={() => {}}>
+                    <Ionicons name="heart" size={30} color={COLORS.red} />
+                </TouchableOpacity>
+            </View>
         </View>
     );
 };
 export default ProductDetails;
-const styles = StyleSheet.create({});
