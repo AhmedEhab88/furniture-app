@@ -83,6 +83,44 @@ const styles = StyleSheet.create({
         textAlign: 'justify',
         marginBottom: SIZES.small,
     },
+    location: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        backgroundColor: COLORS.secondary,
+        padding: 5,
+        borderRadius: SIZES.large,
+        marginHorizontal: 12,
+    },
+    cartRow: {
+        paddingBottom: SIZES.small,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        width: SIZES.width,
+    },
+    cartButton: {
+        width: SIZES.width * 0.7,
+        backgroundColor: COLORS.emeraldGreen,
+        padding: SIZES.small / 2,
+        borderRadius: SIZES.large,
+        marginLeft: 12,
+    },
+    cartTitle: {
+        fontFamily: 'bold',
+        fontSize: SIZES.medium,
+        color: COLORS.lightWhite,
+        marginLeft: SIZES.small,
+    },
+    addCart: {
+        width: 37,
+        height: 37,
+        borderRadius: 50,
+        margin: SIZES.small,
+        backgroundColor: COLORS.emeraldGreen,
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
 });
 
 export default styles;

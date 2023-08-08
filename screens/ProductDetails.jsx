@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
 import styles from './styles/productDetails.style';
-import { Ionicons, SimpleLineIcons } from '@expo/vector-icons';
+import {
+    Ionicons,
+    SimpleLineIcons,
+    MaterialCommunityIcons,
+    Fontisto,
+} from '@expo/vector-icons';
 import { COLORS } from '../constants';
 
 const ProductDetails = ({ navigation }) => {
@@ -81,6 +86,35 @@ const ProductDetails = ({ navigation }) => {
                     printer took a galley of type and scrambled it to make a
                     type specimen book.
                 </Text>
+            </View>
+
+            <View style={{ marginBottom: 10 }}>
+                <View style={styles.location}>
+                    <View style={{ flexDirection: 'row' }}>
+                        <Ionicons name="location-outline" size={20} />
+                        <Text style={{ marginLeft: 5 }}>Cairo, EG</Text>
+                    </View>
+                    <View style={{ flexDirection: 'row' }}>
+                        <MaterialCommunityIcons
+                            name="truck-delivery-outline"
+                            size={20}
+                        />
+                        <Text style={{ marginLeft: 5 }}>Free Delivery</Text>
+                    </View>
+                </View>
+            </View>
+
+            <View style={styles.cartRow}>
+                <TouchableOpacity onPress={() => {}} style={styles.cartButton}>
+                    <Text style={styles.cartTitle}>BUY NOW</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => {}} style={styles.addCart}>
+                    <Fontisto
+                        name="shopping-bag"
+                        size={20}
+                        color={COLORS.lightWhite}
+                    />
+                </TouchableOpacity>
             </View>
         </View>
     );
