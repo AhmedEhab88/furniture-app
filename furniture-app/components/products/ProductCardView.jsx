@@ -5,7 +5,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { COLORS } from '../../constants';
 import { useNavigation } from '@react-navigation/native';
 
-const ProductCardView = () => {
+const ProductCardView = ({ item }) => {
     const navigation = useNavigation();
 
     return (
@@ -26,7 +26,7 @@ const ProductCardView = () => {
 
                 <View style={styles.details}>
                     <Text style={styles.title} numberOfLines={1}>
-                        Product
+                        {item.title}
                     </Text>
                     <Text style={styles.supplier} numberOfLines={1}>
                         Product

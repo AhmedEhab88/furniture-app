@@ -1,0 +1,66 @@
+[
+    {
+        "title": "Kid's Bunk Bed",
+        "supplier": "Furniture World",
+        "imageUrl": "https://www.happybeds.co.uk/media/catalog/product/cache/609832731016a95bb65f15e1f23dafdf/d/o/domino_white_roomset_1.jpg",
+        "price": "$499.99",
+        "description": "A sturdy and playful bunk bed for kids, featuring built-in storage compartments.",
+        "productLocation": "Cairo, EG"
+    },
+    {
+        "title": "Leather Recliner Sofa",
+        "supplier": "Comfort Living",
+        "imageUrl": "https://shop.cleosfurniture.com/wp-content/uploads/2021/10/90052-3-scaled.jpg",
+        "price": "$799.00",
+        "description": "Sink into the luxurious comfort of this genuine leather recliner sofa.",
+        "productLocation": "New York, US"
+    },
+    {
+        "title": "Modern Glass Dining Table",
+        "supplier": "Elegant Designs",
+        "imageUrl": "https://www.vigfurniture.com/media/catalog/product/cache/6d4faa98f2b48c05dae02148ead85f2f/m/o/modrest_babia_4k_image.jpg",
+        "price": "$349.50",
+        "description": "A sleek and stylish glass dining table that complements any contemporary space.",
+        "productLocation": "Paris, FR"
+    },
+    {
+        "title": "Wooden Bookshelf",
+        "supplier": "Nature's Crafts",
+        "imageUrl": "https://m.media-amazon.com/images/I/61scU2eRwdL.jpg",
+        "price": "$199.99",
+        "description": "Organize your books and display decorative items with this elegant wooden bookshelf.",
+        "productLocation": "London, UK"
+    },
+    {
+        "title": "Vintage Writing Desk",
+        "supplier": "Timeless Treasures",
+        "imageUrl": "https://cf.ltkcdn.net/antiques/images/orig/272492-1600x1066-identify-antique-desk-styles.jpg",
+        "price": "299.00",
+        "description": "Capture the charm of a bygone era with this beautifully crafted vintage writing desk.",
+        "productLocation": "Los Angeles, US"
+    },
+    {
+        "title": "Cozy Armchair",
+        "supplier": "Home Haven",
+        "imageUrl": "https://assets.wfcdn.com/im/41874102/resize-h600-w600%5Ecompr-r85/2140/214097666/Demarea+Polyester+Barrel+Chair+Sherpa+Fabric+Accent+Chair%2C+Comfy+Tufted+Upholstered+Armchair.jpg",
+        "price": "$149.95",
+        "description": "Curl up with a good book in this plush and comfortable armchair.",
+        "productLocation": "Toronto, CA"
+    },
+    {
+        "title": "Rustic Coffee Table",
+        "supplier": "Country Living",
+        "imageUrl": "https://mobileimages.lowes.com/productimages/b4952892-1150-4101-ac39-7e9361798c48/60261738.jpg",
+        "price": "$249.75",
+        "description": "Add a touch of rustic charm to your living room with this wooden coffee table.",
+        "productLocation": "Sydney, AU"
+    },
+    {
+        "title": "Queen-sized Canopy Bed",
+        "supplier": "Dreamy Bedrooms",
+        "imageUrl": "https://i.etsystatic.com/12681882/r/il/e3e441/4915825945/il_570xN.4915825945_4jqr.jpg",
+        "price": "$699.99",
+        "description": "Sleep like royalty in this elegant queen-sized canopy bed with intricate details.",
+        "productLocation": "Tokyo, JP"
+    }
+]

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text } from   'react-native';
 
 const useFetch = () => {
     const [data, setData] = useState([]);
@@ -18,6 +18,7 @@ const useFetch = () => {
             setIsLoading(false);
         } catch (error) {
             setError(error);
+            console.log(error);
         } finally {
             setIsLoading(false);
         }
